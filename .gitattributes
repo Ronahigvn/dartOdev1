@@ -1,2 +1,27 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+void main() {
+  String kisininAd="Ronahi";
+  int girilensayi=12;
+  double ondalikliSayi=1.2;
+  bool dynamic =true;
+  // char harf='r';
+   print(kisininAd);
+   print(girilensayi);
+   print(ondalikliSayi);
+   print(dynamic);
+   //print(harf);
+  //camelcase
+  String kisininad="Ronahi";
+  //snake_case
+  double ondalikli_sayi=12.3;
+  //PascalCase
+  int GirilenSayi=12;
+  print(kisininad);
+   print(GirilenSayi);
+   print(ondalikli_sayi);
+
+  print("RONAHI");
+   print("GUVEN");
+  bool resitMi=true;
+   print(resitMi);
+}
+
